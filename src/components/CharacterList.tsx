@@ -32,7 +32,7 @@ const CharacterList: React.FC = () => {
   
   
   const [page, setPage] = useState(0);
-  const [pageSize, setPageSize] = useState(10);
+  const [pageSize, setPageSize] = useState(210);
   const [search, setSearch] = useState('');
 
   // API call on load or when changing page, page size, or search text
